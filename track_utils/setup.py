@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='track_utils',
     version='1.0.0',
-    packages=['track_utils'],
+    packages=['track_utils', 'track_utils.metrics'],
     package_dir={'track_utils': 'track_utils'},
     url='https://github.com/hushchyn-mikhail/track_utils.git',
     license='',
